@@ -30,7 +30,9 @@
         const q = searchField.value.trim().toLowerCase(); // get the search text field's value
 
         if (q.length > 0) {
-            const res = data.filter(i => i.email.toLowerCase().includes(q)); // filter all of the fetched data matching the search field value
+
+            // filter all of the fetched data emails containing the search field value
+            const res = data.filter(i => i.email.toLowerCase().includes(q));
 
             // display results
             searchBox.style.display = 'block';

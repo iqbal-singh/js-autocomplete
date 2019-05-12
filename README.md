@@ -1,1 +1,2 @@
-# Vanilla JavaScript autocomplete
+# Vanilla JavaScript Autocomplete
+

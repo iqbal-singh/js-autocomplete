@@ -1,0 +1,22 @@
+    #searchResults {
+        display: none;
+        text-align: left;
+        padding: 0;
+        max-height: 200px;
+        overflow: auto;
+    }
+    
+    #searchResultsBox {
+        display: none;
+    }
+    
+    #searchResults ul {
+        list-style: none;
+        background-color: #fff;
+        padding: 0;
+    }
+    
+    #searchResults li:hover {
+        background-color: #ccc;
+        cursor: pointer;
+    }

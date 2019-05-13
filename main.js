@@ -44,6 +44,7 @@
             res.forEach(i => {
                 let listItem = document.createElement('li');
                 listItem.innerHTML = i.email;
+                listItem.tabIndex = 0;
                 searchResultsList.append(listItem);
                 listItem.addEventListener('click', handleItemClick);
 
